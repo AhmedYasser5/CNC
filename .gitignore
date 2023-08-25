@@ -1,0 +1,4 @@
+*
+!/.gitignore
+!/cnc.c
+!/README.md
