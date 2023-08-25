@@ -22,7 +22,7 @@ $$ \frac{\text{Completed steps in X direction}}{\text{Required steps in Y direct
 
 * Since it is impossible to achieve this all the time, the following equation is used to determine which motor will move a single step:
 
-$$ \text{completed\textunderscore x\textunderscore moves} \times \text{required\textunderscore y\textunderscore moves} \lt \text{completed\textunderscore y\textunderscore moves} \times \text{required\textunderscore x\textunderscore moves} $$
+$$ \text{completed}\textunderscore\text{x}\textunderscore\text{moves} \times \text{required}\textunderscore\text{y}\textunderscore\text{moves} \lt \text{completed}\textunderscore\text{y}\textunderscore\text{moves} \times \text{required}\textunderscore\text{x}\textunderscore\text{moves} $$
 
 * If this condition is true, the motor in the X direction should move next, and vice versa.
 
